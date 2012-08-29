@@ -1,0 +1,31 @@
+Calladmin plugin for BigBrotherBot (www.bigbrotherbot.net)
+=============================================================
+
+By Mr.Click
+
+
+Description
+-----------
+This plugin send an admin request over a Teamspeak 3 server or a Mumble (murmur) server.
+In order to work properly you need to include in your b3 configuration at least one of the following plugins:
+
+  - Teamspeak 3 Plugin (courgette) : http://forum.bigbrotherbot.net/downloads/?sa=view;down=144
+  - Mumble Plugin (BlackMamba) : http://forum.bigbrotherbot.net/downloads/?sa=view;down=111
+  
+If both plugins are missing your b3 will fail to start
+
+Installation
+------------
+
+ * copy calladmin.py into b3/extplugins
+ * copy calladmin.xml into b3/extplugins/conf
+ 
+<plugin name="calladmin" config="@b3/extplugins/conf/calladmin.xml"/>
+
+Remember to include this plugin after the Teamspeak 3 Plugin and/or the Mumble Plugin or your b3 fail to start
+
+Changelog
+---------
+
+29/08/2012 (v1.0 Mr.Click)
+  - initial release

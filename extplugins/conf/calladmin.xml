@@ -1,0 +1,5 @@
+<configuration plugin="calladmin">
+	<settings name="commands">
+		<set name="calladmin">1</set>
+	</settings>
+</configuration>
